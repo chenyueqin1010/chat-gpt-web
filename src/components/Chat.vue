@@ -37,7 +37,7 @@ const $q = useQuasar();
 
 const configuration = new Configuration({
   organization: "org-lccnrzbMqST4GlSb2BdV3N7R",
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
