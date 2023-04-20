@@ -35,9 +35,11 @@ import {
 } from 'quasar';
 const $q = useQuasar();
 
+const key = 'c2steG9BREZQdU1GMTFYdWpQNk9BZEdUM0JsYmtGSlZBaGh2NUVBN2FjREdmcEJ3Y3JU';
+
 const configuration = new Configuration({
   organization: "org-lccnrzbMqST4GlSb2BdV3N7R",
-  apiKey: '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',
+  apiKey: window.atob(key),
 });
 const openai = new OpenAIApi(configuration);
 
