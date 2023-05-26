@@ -44,10 +44,8 @@
 	const key = 'c2steG9BREZQdU1GMTFYdWpQNk9BZEdUM0JsYmtGSlZBaGh2NUVBN2FjREdmcEJ3Y3JU';
 
 	const configuration = new Configuration({
-		basePath: 'https://api-proxy-openai.itwk.cc',
 		apiKey: window.atob(key)
 	});
-	console.log(configuration)
 	const openai = new OpenAIApi(configuration);
 
 	const text = ref('')
